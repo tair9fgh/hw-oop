@@ -1,3 +1,5 @@
+// package airreservationsystem;
+
 public class Reservation {
     public String resID;
     public Flight flight;
@@ -5,7 +7,8 @@ public class Reservation {
 
     public String confirm;
 
-    public Reservation(String resID, Flight flight, Passenger passenger) {
+    public Reservation(String resID, Flight flight,
+                       Passenger passenger) {
         this.resID = resID;
         this.flight = flight;
         this.passenger = passenger;

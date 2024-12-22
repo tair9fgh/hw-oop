@@ -1,3 +1,5 @@
+// package airreservationsystem;
+
 public class Passenger {
     public String firstName;
     public String lastName;
